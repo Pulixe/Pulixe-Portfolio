@@ -1,0 +1,140 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact**  Me"
+        },
+
+        "es": {
+            "title": "Contacto",
+            "title_long_prefix": "No dudes en",
+            "title_long": "**Contactarme**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "es": {"title": "Envíame un **mensaje**"}
+            },
+
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."},
+                "es": {"title": "O si **prefieres**..."}
+            },
+
+            "items": [
+                {
+                    "value": "+507 6951-9674",
+                    "links": [
+                        {"href": "tel:50769519674"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Phone"},
+                        "es": {"title": "Teléfono"}
+                    
+                    }
+                },
+
+                {
+                    "value": "francisco.pulice@outlook.com",
+                    "links": [
+                        {"href": "mailto:francisco.pulice@outlook.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "es": {"title": "E-mail"}
+                    }
+                },
+
+                {
+                    "value": "@Francisco Pulice Rojas",
+                    "links": [
+                        {"href": "https://www.linkedin.com/in/francisco-pulice-rojas-502751147/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Linkedin"},
+                        "es": {"title": "Linkedin"}
+                    }
+                },
+
+                {
+                    "value": "Francisco Pulice Rojas",
+                    "links": [
+                        {"href": "https://www.facebook.com/francisco.pulicerojas"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-facebook",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Facebook"},
+                        "es": {"title": "Facebook"}
+                    }
+                },
+
+                {
+                    "value": "@pulixe",
+                    "links": [
+                        {"href": "https://www.instagram.com/pulixe/"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-instagram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Instagram"},
+                        "es": {"title": "Instagram"}
+                    }
+                },
+
+                {
+                    "value": "@pulixeStudios",
+                    "links": [
+                        {"href": "https://www.youtube.com/@PulixeStudios"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-youtube",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Youtube"},
+                        "es": {"title": "Youtube"}
+                    }
+                }
+            ]
+        }
+    ]
+}

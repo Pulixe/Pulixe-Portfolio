@@ -1,0 +1,155 @@
+/** ----------- FONTS ------------ **/
+$font-family-base: 'Raleway', sans-serif;
+$headings-font-family: 'Nunito', sans-serif;
+$custom-subheadings-font-family: 'Franklin Gothic Book', sans-serif;
+
+/** --------- Z-INDEXES ---------- **/
+$z-index-section-inactive: 10;
+$z-index-section-active: 20;
+$z-index-sidebar: 100;
+$z-index-nav-tabs: 200;
+$z-index-modal: 9000;
+$z-index-notifications: 9500;
+$z-index-dialogs:9800;
+$z-index-activity-spinner: 9990;
+$z-index-animated-cursor: 9995;
+$z-index-loader: 9999;
+
+/** ----------- LAYOUT ----------- **/
+$sidebar-width: 280px;
+$sidebar-shrink-width: 120px;
+$nav-tabs-height: 55px;
+$nav-tabs-chrome-offset: 20px;
+$standard-border-radius: 10px;
+$layout-blocks-spacing: 0.5rem;
+$sidebar-min-breakpoint: md;
+
+/** ----------- COLORS ----------- **/
+
+/** COLORS - overriding bootstrap colors **/
+$primary: #36ec65;
+$secondary: #6c757d;
+$dark: #111;
+$light: #EEE;
+
+/** COLORS - static **/
+$loader-background-color: #111111;
+
+:root {
+    --mobile-layout-breakpoint: md;
+}
+
+/** COLORS - dark theme palette **/
+:root {
+      /* Colores principales */
+      --theme-main: #111111; /* Color principal */
+      --theme-main-2: #1A1A1A; /* Variante 1 */
+      --theme-main-3: #1C1C1C; /* Variante 2 */
+      --theme-main-4: #970909; /* Color de acento */
+  
+      /* Colores secundarios */
+      --theme-secondary: #ffffff; /* Color blanco */
+      --theme-secondary-2: #000000; /* Color negro */
+      --theme-secondary-3: #bbbbbb; /* Gris claro */
+      --theme-secondary-4: #9f9f9f; /* Gris medio */
+  
+      /* Colores suaves */
+      --theme-soft: #1C1C1C; /* Color suave */
+      --theme-soft-2: #252525; /* Variante suave 1 */
+      --theme-soft-3: #292929; /* Variante suave 2 */
+  
+      /* Colores destacados */
+      --theme-highlight: #025683; /* Color destacado 1 */
+      --theme-highlight-2: #2396af; /* Color destacado 2 */
+      --theme-highlight-3: #a4dcb9; /* Color destacado 3 */
+  
+      /* Colores oscuros */
+      --theme-dark: #101010; /* Color oscuro */
+      --theme-dark-opacity: rgba(16, 16, 16, 0.2); /* Color oscuro con opacidad */
+      --theme-muted: #ffffff; /* Color atenuado */
+      --theme-white: #a4dcb9; /* Color blanco suave */
+  
+      /* Colores de fondo */
+      --theme-bg: #2e97b7; /* Color de fondo principal */
+      --theme-bg-color: #1C1C1C; /* Color de fondo oscuro */
+      --theme-section-background: #32b9be; /* Color de fondo de sección */
+      --theme-section-background-opacity: rgba(50, 185, 190, 0.8); /* Fondo de sección con opacidad */
+      --theme-tag-color: #181818; /* Color de etiquetas */
+      --theme-box-shadow: none; /* Sombra de caja */
+  
+      /* Colores de navegación */
+      --theme-nav-background: #1c8083; /* Fondo de navegación */
+      --theme-nav-background-disabled: #181818; /* Fondo de navegación deshabilitado */
+      --theme-nav-secondary: #53d3fa; /* Color de navegación secundaria */
+      --theme-nav-light: #1f2022; /* Color de navegación claro */
+      --theme-nav-highlight: #a4dcb9; /* Color de navegación destacado */
+      --theme-nav-selected: #232526; /* Color de navegación seleccionado */
+  
+      /* Colores de scrollbar */
+      --theme-scrollbar-track: #111111; /* Color de pista de scrollbar */
+      --theme-scrollbar-thumb: #32343a; /* Color de "thumb" de scrollbar */
+      
+      /* Colores para gráficos */
+      --theme-chart-borders: #e7f6e3; /* Bordes de gráficos */
+  
+      /* Colores de peligro */
+      --theme-danger: #730808; /* Color de peligro */
+}
+
+/** COLORS - light theme palette **/
+[data-theme="light"] {
+    --theme-main: #9adbaf;
+    --theme-main-2: #8ec9a1;
+    --theme-main-3: #82b791;
+    --theme-main-4: #7db08e;
+
+    --theme-secondary: #404b41;
+    --theme-secondary-2: #49564a;
+    --theme-secondary-3: #576758;
+    --theme-secondary-4: #5e6c5e;
+
+    --theme-soft: #c3e3cb;
+    --theme-soft-2: #bfdec7;
+    --theme-soft-3: #bad9c2;
+
+    --theme-dark: #daf5e4;
+    --theme-dark-opacity: rgba(218, 245, 228, 0.2);
+    --theme-muted: #7c8d7f;
+    --theme-white: #ffffff;
+
+    --theme-highlight: #269366;
+    --theme-highlight-2: #207956;
+    --theme-highlight-3: #1a6447;
+
+    --theme-bg: url('/images/css/bg-green.png');
+    --theme-bg-color: #9adbaf;
+    --theme-section-background: #caecd5;
+    --theme-section-background-opacity: rgba(202, 236, 213, 0.9);
+    --theme-tag-color: #b1ccbd;
+    --theme-box-shadow: none;
+
+    --theme-nav-background: #caecd5;
+    --theme-nav-background-disabled: #c5e6d0;
+    --theme-nav-secondary: #4f5b50;
+    --theme-nav-light: rgba(217, 243, 222, 0.5);
+    --theme-nav-highlight: #d7f1e3;
+    --theme-nav-selected: #269366;
+
+    --theme-scrollbar-track: #c3e4cc;
+    --theme-scrollbar-thumb: #55bd91;
+    --theme-chart-borders: #e7f6e3;
+
+    --theme-danger: #fad6d6;
+}
+
+.bg-dark {
+    background-image: url('/images/css/bg-dark.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-green {
+    background-image: url('/images/css/bg-green.png');
+    background-size: cover;
+    background-position: center;
+}

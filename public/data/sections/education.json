@@ -1,0 +1,141 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+
+        "ko": {
+            "title": "교육",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**교육적** 배경"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-4.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2016",
+                        "end": "12/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** in System & Computer Engineer",
+                            "info": "UTP",
+                            "text": "Earned a Bachelor's degree in Computer Science, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects and boot camps.",
+                            "tags": []
+                        },
+                        "es": {
+                            "title": "**Licenciatura** Ingenieria de Sistemas y Computación",
+                            "info": "MIT",
+                            "text": "Obtuve una licenciatura en Ciencias de la Computación, con un enfoque en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de varios proyectos de programación y campamentos de entrenamiento.",
+                            "tags": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-2.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/01/2023",
+                        "end": "01/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**SQL** : Advanced Programming",
+                            "info": "Udemy",
+                            "text": "Thank God for the completion of this new course, which adds a little more advanced knowledge for the manipulation of databases, this time with the Microsoft database engine.",
+                            "tags": ["SQL", "SQL SERVER", "T-SQL"]
+                        },
+                        "es": {
+                            "title": "**SQL** : Programación Avanzada",
+                            "info": "Udemy",
+                            "text": "Gracias a Dios por la culminación de este nuevo curso, el cual agrega un poco más de conocimientos avanzados para la manipulación de bases de datos, esta vez con el motor de bases de datos de Microsoft.",
+                            "tags": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-2.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/01/2022",
+                        "end": "01/01/2023"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**JAVA** : SpringBoot 3: AOP, JPA, Security JWT, RESTful, AWS EC2, Angular, React",
+                            "info": "Udemy",
+                            "text": "Thank God for the completion of this new course, which adds a little more advanced knowledge for the manipulation of databases, this time with the Microsoft database engine.",
+                            "tags": ["JAVA", "AWS", "REACT"]
+                        },
+                        "es": {
+                            "title": "**SQL** : Programación Avanzada",
+                            "info": "Udemy",
+                            "text": "Gracias a Dios por la culminación de este nuevo curso, el cual agrega un poco más de conocimientos avanzados para la manipulación de bases de datos, esta vez con el motor de bases de datos de Microsoft.",
+                            "tags": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/place-1.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "06/01/2022",
+                        "end": "12/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "** Google Cloud **: Machine Learning for Business Professionals",
+                            "info": "Coursera",
+                            "text": "Hands on Deploying Machine Learning Application with Google Cloud Platform (GCP)",
+                            "tags": ["Python", "GCP", "TensorFlow"]
+                        },
+                        "es": {
+                            "title": "**SQL** : Programación Avanzada",
+                            "info": "Coursera",
+                            "text": "Gracias a Dios por la culminación de este nuevo curso, el cual agrega un poco más de conocimientos avanzados para la manipulación de bases de datos, esta vez con el motor de bases de datos de Microsoft.",
+                            "tags": null
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

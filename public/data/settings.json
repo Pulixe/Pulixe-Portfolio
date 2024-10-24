@@ -1,0 +1,69 @@
+{
+    "version": "1.0.0",
+    "animatedCursorEnabled": true,
+    "fullScreenButtonEnabled": true,
+
+    "preloader": {
+        "enabled": false,
+        "title": "<b>PULIXE</b>",
+        "subtitle": "System Engineer"
+    },
+
+    "profile": {
+        "name": "Francisco Pulice Rojas",
+        "stylizedName": "<strong>Francisco **Pulice**</strong>",
+        "logoUrl": "images/svg/pulixe.svg",
+        "profilePictureUrl": "images/pictures/avatar.jpg",
+
+        "locales": {
+            "en": {"role": "Software Developer"},
+            "es": {"role": "Desarrollador de Software"}
+           
+        }
+    },
+
+    "status": {
+        "visible": true,
+        "available": true,
+
+        "locales": {
+            "en": {"message": "Green, Sr..."},
+            "es": {"message": "¡Disponible!"}
+        }
+    },
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "default": true,
+            "icon": "fa-solid fa-moon"
+        },
+
+        {
+            "id": "light",
+            "default": false,
+            "icon": "fa-solid fa-sun"
+        }
+    ],
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en.png"
+        },
+
+        {
+            "name": "Español",
+            "id": "es",
+            "flagUrl": "images/flags/es.png",
+            "default": true
+        }
+    ],
+
+    "emailjs": {
+        "publicKey": "nM89kxJUf9wA3r6Ze",
+        "serviceId": "service_cyw61k6",
+        "templateId": "template_zjfb1kh"
+    }
+}
