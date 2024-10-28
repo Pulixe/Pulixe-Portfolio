@@ -52,7 +52,7 @@
                         },
                         "es": {
                             "title": "**Licenciatura** Ingenieria de Sistemas y Computación",
-                            "info": "MIT",
+                            "info": "Universidad Tecnológica de Panamá",
                             "text": "Obtuve una licenciatura en Ciencias de la Computación, con un enfoque en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de varios proyectos de programación y campamentos de entrenamiento.",
                             "tags": null
                         }
@@ -63,7 +63,8 @@
                     "icon": {
                         "img": "images/pictures/place-2.png",
                         "fa": "",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {"bg": null, "fill": null},
+                        "enlace":"www.google.com"
                     },
                     "dates": {
                         "start": "06/01/2023",
@@ -80,7 +81,7 @@
                             "title": "**SQL** : Programación Avanzada",
                             "info": "Udemy",
                             "text": "Gracias a Dios por la culminación de este nuevo curso, el cual agrega un poco más de conocimientos avanzados para la manipulación de bases de datos, esta vez con el motor de bases de datos de Microsoft.",
-                            "tags": null
+                            "tags": ["SQL", "SQL SERVER", "T-SQL"]
                         }
                     }
                 },
@@ -99,13 +100,13 @@
                         "en": {
                             "title": "**JAVA** : SpringBoot 3: AOP, JPA, Security JWT, RESTful, AWS EC2, Angular, React",
                             "info": "Udemy",
-                            "text": "Thank God for the completion of this new course, which adds a little more advanced knowledge for the manipulation of databases, this time with the Microsoft database engine.",
+                            "text": "In this course, I developed extensive knowledge of the Java Spring Boot framework. Emphasis is placed on creating RESTful services, connecting to databases, and securing the application with JSON Web Tokens.",
                             "tags": ["JAVA", "AWS", "REACT"]
                         },
                         "es": {
-                            "title": "**SQL** : Programación Avanzada",
+                            "title": "**JAVA** : SpringBoot 3: AOP, JPA, Security JWT, RESTful, AWS EC2, Angular, React",
                             "info": "Udemy",
-                            "text": "Gracias a Dios por la culminación de este nuevo curso, el cual agrega un poco más de conocimientos avanzados para la manipulación de bases de datos, esta vez con el motor de bases de datos de Microsoft.",
+                            "text": "En este curso desarrolle un vasto conocimiento del Framework SpringBoot de Java. Se hace enfasis en la creacion de servicios RestFull conexion a la bases de datos y seguridadde la aplicacion con Json Web Tokens.",
                             "tags": null
                         }
                     }
@@ -128,9 +129,9 @@
                             "tags": ["Python", "GCP", "TensorFlow"]
                         },
                         "es": {
-                            "title": "**SQL** : Programación Avanzada",
+                            "title": "** Google Cloud **: Machine Learning for Business Professionals",
                             "info": "Coursera",
-                            "text": "Gracias a Dios por la culminación de este nuevo curso, el cual agrega un poco más de conocimientos avanzados para la manipulación de bases de datos, esta vez con el motor de bases de datos de Microsoft.",
+                            "text": "Hands on Deploying Machine Learning Application with Google Cloud Platform (GCP)",
                             "tags": null
                         }
                     }

@@ -3,7 +3,7 @@ import React from 'react'
 import ImageView from "/src/components/generic/ImageView.jsx"
 import FaIcon from "/src/components/generic/FaIcon.jsx"
 
-function CircleAvatar({img, alt, size, dynamicSize, fallbackIcon, fallbackIconColors, className}) {
+function CircleAvatar({img, alt, size, dynamicSize, fallbackIcon, fallbackIconColors, className, enlace}) {
     const sizeClass = `circle-avatar-${size || 1}`
     const dynamicSizeClass = dynamicSize ? `circle-avatar-dynamic-${size}` : ``
 
@@ -13,8 +13,9 @@ function CircleAvatar({img, alt, size, dynamicSize, fallbackIcon, fallbackIconCo
                  backgroundColor: fallbackIconColors ? fallbackIconColors.bg : null,
                  color: fallbackIconColors ? fallbackIconColors.fill : 'inherit'
              }}>
+                
                 {img && (<ImageView src={img} alt={alt}/>)}
-                {!img && fallbackIcon && (<FaIcon iconName={fallbackIcon}/>)}
+                {!img && fallbackIcon && (<FaIcon iconName={fallbackIcon} enlace={enlace}/>)}
         </div>
     )
 }

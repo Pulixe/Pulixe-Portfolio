@@ -10,18 +10,6 @@
             "title": "Habilidades",
             "title_long_prefix": "Explora",
             "title_long": "Mis **Habilidades**"
-        },
-
-        "fr": {
-            "title": "Capacités",
-            "title_long_prefix": "Explorez",
-            "title_long": "Mes **Compétences**"
-        },
-
-        "ko": {
-            "title": "스킬",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**스킬**입니다"
         }
     },
 
@@ -42,19 +30,11 @@
                     "locales": {
                         "en": {
                             "title": "**Website** design",
-                            "text": "I can bring your best ideas into life!"
+                            "text": "I can create personal websites like this!"
                         },
                         "es": {
                             "title": "Diseño de **sitios web**",
-                            "text": "¡Puedo hacer realidad tus mejores ideas!"
-                        },
-                        "fr": {
-                            "title": "Conception de **sites web**",
-                            "text": "Je peux donner vie à vos meilleures idées !"
-                        },
-                        "ko": {
-                            "title": "**웹사이트** 디자인",
-                            "text": "당신의 최고의 아이디어를 실현시킬 수 있습니다!"
+                            "text": "¡Puedo Diseñar paginas web como esta y más!"
                         }
                     }
                 },
@@ -68,19 +48,11 @@
                     "locales": {
                         "en": {
                             "title": "**Database** management",
-                            "text": "I can handle your data effectively!"
+                            "text": "Analaize,Manage & Transform Data!"
                         },
                         "es": {
                             "title": "Gestión de **bases de datos**",
-                            "text": "¡Puedo gestionar tus datos de manera eficaz!"
-                        },
-                        "fr": {
-                            "title": "Gestion de **bases de données**",
-                            "text": "Je peux gérer vos données efficacement !"
-                        },
-                        "ko": {
-                            "title": "**데이터베이스** 관리",
-                            "text": "데이터를 효과적으로 처리할 수 있습니다!"
+                            "text": "¡Analizo, Gestiono y transformo los datos!"
                         }
                     }
                 },
@@ -99,14 +71,6 @@
                         "es": {
                             "title": "Creación de **aplicaciones**",
                             "text": "¡Puedo crear aplicaciones creativas e innovadoras!"
-                        },
-                        "fr": {
-                            "title": "Création d'**applications**",
-                            "text": "Je peux créer des applications créatives et innovantes !"
-                        },
-                        "ko": {
-                            "title": "**앱** 제작",
-                            "text": "창의적이고 혁신적인 앱을 만들 수 있습니다!"
                         }
                     }
                 },
@@ -120,19 +84,11 @@
                     "locales": {
                         "en": {
                             "title": "REST **APIs**",
-                            "text": "I can build API services!"
+                            "text": "Rest Services and API Dev!"
                         },
                         "es": {
                             "title": "APIs **REST**",
-                            "text": "¡Puedo crear servicios API!"
-                        },
-                        "fr": {
-                            "title": "APIs **REST**",
-                            "text": "Je peux créer des services API !"
-                        },
-                        "ko": {
-                            "title": "REST **API**",
-                            "text": "API 서비스를 구축할 수 있습니다!"
+                            "text": "¡Creación de Servicios Rest/API!"
                         }
                     }
                 },
@@ -146,19 +102,11 @@
                     "locales": {
                         "en": {
                             "title": "Information **Security**",
-                            "text": "Security is my middle name!"
+                            "text": "Atention to Secure my solutions!"
                         },
                         "es": {
                             "title": "**Seguridad** de la información",
-                            "text": "¡La seguridad es mi segundo nombre!"
-                        },
-                        "fr": {
-                            "title": "**Sécurité** de l'information",
-                            "text": "La sécurité est mon deuxième prénom !"
-                        },
-                        "ko": {
-                            "title": "정보 **보안**",
-                            "text": "보안은 제 전문 분야입니다!"
+                            "text": "¡Atento en la seguridad de mis soluciones!"
                         }
                     }
                 }
@@ -183,10 +131,14 @@
                     },
                     "value": 95,
                     "dates": {
-                        "start": "01/15/2019"
+                        "start": "01/15/2020"
                     },
                     "locales": {
                         "en": {
+                            "title": "Node.js",
+                            "info": null
+                        },
+                        "es": {
                             "title": "Node.js",
                             "info": null
                         }
@@ -200,10 +152,14 @@
                     },
                     "value": 90,
                     "dates": {
-                        "start": "03/10/2019"
+                        "start": "03/10/2020"
                     },
                     "locales": {
                         "en": {
+                            "title": "Java 11+",
+                            "info": null
+                        },
+                        "es": {
                             "title": "Java 11+",
                             "info": null
                         }
@@ -215,12 +171,16 @@
                         "fa": "fa-brands fa-python",
                         "faColors": {"bg": "#306998", "fill": "#EEE"}
                     },
-                    "value": 85,
+                    "value": 95,
                     "dates": {
                         "start": "06/20/2020"
                     },
                     "locales": {
                         "en": {
+                            "title": "Python 3.x",
+                            "info": null
+                        },
+                        "es": {
                             "title": "Python 3.x",
                             "info": null
                         }
@@ -229,8 +189,8 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-gem",
-                        "faColors": {"bg": "#CC0000", "fill": "#EEE"}
+                        "fa": "fa-brands fa-square-js",
+                        "faColors": {"bg": "#FFD700", "fill": "#111"}
                     },
                     "value": 80,
                     "dates": {
@@ -238,7 +198,11 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Ruby on Rails",
+                            "title": "JavaScript",
+                            "info": null
+                        },
+                        "es": {
+                            "title": "JavaScript",
                             "info": null
                         }
                     }
@@ -255,7 +219,11 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "MySQL",
+                            "title": "PostgreSQL / MYSQL / SQL Server",
+                            "info": null
+                        },
+                        "es": {
+                            "title": "PostgreSQL / MYSQL / SQL Server",
                             "info": null
                         }
                     }
@@ -266,47 +234,17 @@
                         "fa": "fa-brands fa-docker",
                         "faColors": {"bg": "#2496ED", "fill": "#EEE"}
                     },
-                    "value": 60,
+                    "value": 90,
                     "dates": {
-                        "start": "04/15/2021"
+                        "start": "04/15/2020"
                     },
                     "locales": {
                         "en": {
                             "title": "Docker",
                             "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-php",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
-                    },
-                    "value": 100,
-                    "dates": {
-                        "start": "09/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "PHP 8.0+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-life-ring",
-                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
-                    },
-                    "value": 80,
-                    "dates": {
-                        "start": "07/10/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Kubernetes",
+                        },
+                        "es": {
+                            "title": "Docker",
                             "info": null
                         }
                     }
@@ -317,13 +255,17 @@
                         "fa": "fa-solid fa-server",
                         "faColors": {"bg": "#47A248", "fill": "#EEE"}
                     },
-                    "value": 50,
+                    "value": 80,
                     "dates": {
-                        "start": "05/20/2024"
+                        "start": "05/20/2020"
                     },
                     "locales": {
                         "en": {
-                            "title": "MongoDB",
+                            "title": "Nginx",
+                            "info": null
+                        },
+                        "es": {
+                            "title": "Nginx",
                             "info": null
                         }
                     }
@@ -336,10 +278,14 @@
                     },
                     "value": 95,
                     "dates": {
-                        "start": "01/01/2018"
+                        "start": "01/01/2020"
                     },
                     "locales": {
                         "en": {
+                            "title": "Git",
+                            "info": null
+                        },
+                        "es": {
                             "title": "Git",
                             "info": null
                         }
@@ -347,6 +293,9 @@
                 }
             ]
         },
+
+
+
 
         {
             "id": "front_end_programming",
@@ -363,12 +312,16 @@
                         "fa": "fa-brands fa-html5",
                         "faColors": {"bg": "#E34F26", "fill": "#EEE"}
                     },
-                    "value": 100,
+                    "value": 80,
                     "dates": {
                         "start": "09/01/2018"
                     },
                     "locales": {
                         "en": {
+                            "title": "HTML5",
+                            "info": null
+                        },
+                        "es": {
                             "title": "HTML5",
                             "info": null
                         }
@@ -388,14 +341,18 @@
                         "en": {
                             "title": "CSS3",
                             "info": null
+                        },
+                        "es": {
+                            "title": "CSS3",
+                            "info": null
                         }
                     }
                 },
                 {
                     "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-js",
-                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
+                        "img": "",
+                        "fa": "fa-solid fa-message-text",
+                        "faColors": {"bg": "#1572B6", "fill": "#111"}
                     },
                     "value": 90,
                     "dates": {
@@ -403,7 +360,11 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "JavaScript ES6+",
+                            "title": "TypeScript",
+                            "info": "Ts"
+                        },
+                        "es": {
+                            "title": "TypeScript",
                             "info": null
                         }
                     }
@@ -414,13 +375,17 @@
                         "fa": "fa-brands fa-react",
                         "faColors": {"bg": "#61DAFB", "fill": "#111"}
                     },
-                    "value": 95,
+                    "value": 75,
                     "dates": {
-                        "start": "06/20/2020"
+                        "start": "06/20/2023"
                     },
                     "locales": {
                         "en": {
-                            "title": "React",
+                            "title": "React / React Native",
+                            "info": null
+                        },
+                        "es": {
+                            "title": "React / React Native",
                             "info": null
                         }
                     }
@@ -428,16 +393,20 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-vuejs",
-                        "faColors": {"bg": "#4FC08D", "fill": "#111"}
+                        "fa": "fa-brands fa-aws",
+                        "faColors": {"bg": "#E34F26", "fill": "#111"}
                     },
-                    "value": 40,
+                    "value": 70,
                     "dates": {
                         "start": "08/30/2023"
                     },
                     "locales": {
                         "en": {
-                            "title": "Vue.js",
+                            "title": "AWS",
+                            "info": null
+                        },
+                        "es": {
+                            "title": "AWS",
                             "info": null
                         }
                     }
@@ -454,6 +423,10 @@
                     },
                     "locales": {
                         "en": {
+                            "title": "Bootstrap",
+                            "info": null
+                        },
+                        "es": {
                             "title": "Bootstrap",
                             "info": null
                         }

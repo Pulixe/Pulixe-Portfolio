@@ -1,27 +1,15 @@
 {
     "locales": {
         "en": {
-            "title": "Experience",
+            "title": "Work Experience",
             "title_long_prefix": "Summary of my",
             "title_long": "**Work** Experience"
         },
 
         "es": {
-            "title": "Experiencia",
+            "title": "Experiencia Laboral",
             "title_long_prefix": "Resumen de mi",
             "title_long": "Experiencia **Laboral**"
-        },
-
-        "fr": {
-            "title": "Expérience",
-            "title_long_prefix": "Résumé de mon",
-            "title_long": "Parcours **Professionel**"
-        },
-
-        "ko": {
-            "title": "경험",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**직업적** 경험"
         }
     },
 
@@ -40,33 +28,21 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
-                        "start": "03/01/2016",
-                        "end": "06/01/2018"
+                        "start": "11/01/2023",
+                        "end": "07/17/2024"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Backend** Developer",
-                            "info": "Sapphire Studio",
-                            "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
-                            "tags": ["PHP", "MySQL", "Laravel"]
+                            "title": "System Analyst",
+                            "info": "Inteligo Bank",
+                            "text": "Collaborated with the IT team to maintain and optimize the bank's databases, developing on-demand monitoring tools and data analysis reports for employees to assess customer behavior and bank statistics. Led the development of a dashboard application with statistical graphs, leveraging data from various sources (SQL Server, MySQL, Core Banking) using C# ASP.NET, which streamlined UI/UX interfaces and accelerated development delivery times. Created and optimized SQL stored procedures to ensure database efficiency and maintain timely response times. Coordinated with a large team of analysts using Jira and Bitbucket, adhering to auditor guidelines in all deliverables. Additionally, managed cloud servers on AWS, overseeing log management and deploying applications in production environments.",
+                            "tags": ["SQL Server", "C#", "ASP.NET", "Java", "Bootstrap 4", "Js"]
                         },
                         "es": {
-                            "title": "Desarrollador **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "Développeur **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Développé et maintenu des systèmes backend évolutifs pour divers clients, optimisant les performances de la base de données et implémentant des APIs RESTful pour améliorer la fonctionnalité de l'application.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**백엔드** 개발자",
-                            "info": "사파이어 스튜디오",
-                            "text": "여러 클라이언트를 위해 확장 가능한 백엔드 시스템을 개발하고 유지 관리하며, 데이터베이스 성능을 최적화하고 애플리케이션 기능을 개선하기 위해 RESTful API를 구현했습니다.",
-                            "tags": null
+                            "title": "Analista de Sistemas",
+                            "info": "Inteligo Bank",
+                            "text": "Colaboré con el equipo de TI para mantener y optimizar las bases de datos del banco, desarrollando herramientas de monitoreo bajo demanda y reportes de análisis de datos para que los empleados puedan evaluar el comportamiento de los clientes y las estadísticas del banco. Lideré el desarrollo de una aplicación de dashboard con gráficos estadísticos, aprovechando datos de diversas fuentes (SQL Server, MySQL, Core Banking) utilizando C# ASP.NET, lo que optimizó las interfaces de UI/UX y aceleró los tiempos de entrega de desarrollo. Creé y optimicé procedimientos almacenados en SQL para garantizar la eficiencia de la base de datos y mantener tiempos de respuesta dentro de los límites permitidos. Coordiné con un gran equipo de analistas usando Jira y Bitbucket, cumpliendo con las pautas establecidas por los auditores en todas las entregas. Además, gestioné servidores en la nube con AWS, supervisando la gestión de registros y el despliegue de aplicaciones en entornos productivos.",
+                            "tags": ["SQL Server", "C#", "ASP.NET", "Java", "Bootstrap 4", "Js"]
                         }
                     }
                 },
@@ -77,33 +53,46 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
-                        "start": "06/01/2018",
-                        "end": "12/01/2020"
+                        "start": "06/01/2021",
+                        "end": "11/01/2023"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Full-Stack** Engineer",
-                            "info": "Coursera",
-                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
-                            "tags": ["JavaScript", "React", "Node.js", "PHP", "REST", "Docker"]
+                            "title": "Backend Developer",
+                            "info": "Banco General",
+                            "text": "I participated in application monitoring tasks, internal application development, and server administration, applying agile methodologies. This included: • Java Backend API Development with the Spring Boot Framework. o Developed RESTful methods in Java to communicate data with the internal platform. These methods help create a personal web dashboard that identifies issues in the production application. o Improved service implementation by optimizing response times. • Server and container administration and monitoring (On-Premise / Cloud). o Maintained cloud servers based on the Linux operating system. • Database Programming (Sybase, MySQL). o Developed stored procedures applying techniques that allow better resource utilization in the database. • Deployed applications using container technologies like Docker and CI/CD with Jenkins. • Jira / Bitbucket. o Used Scrum and daily meetings to ensure task completion.",
+                            "tags": ["Java", "Agular 11", "Node.js", "JavaScript", "SpringBoot", "Docker", "AWS", "SQL/ESQL"]
                         },
                         "es": {
-                            "title": "Ingeniero **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "Participé en la mejora del sitio web de Coursera al implementar nuevas funcionalidades y optimizar la experiencia del usuario, utilizando tecnologías de frontend y backend para asegurar un funcionamiento sin problemas.",
-                            "tags": null
+                            "title": "Desarrollador **Backend**",
+                            "info": "Banco General",
+                            "text": "Participé en tareas de monitoreo de aplicaciones, desarrollo de aplicaciones internas de la empresa y administración de diferentes servidores, aplicando metodologías ágiles. Incluye: • Desarrollo de API Backend en Java con el framework Spring Boot. o Desarrollo de métodos RESTful en Java para comunicar datos con la plataforma interna. Estos métodos ayudan a crear un panel web personal que permite reconocer problemas en la aplicación de producción. o Mejora en la implementación de servicios optimizando los tiempos de respuesta. • Administración y monitoreo de servidores y contenedores (On Premise / Cloud). o Mantenimiento de servidores en la nube basados en el sistema operativo Linux. • Programación de bases de datos (Sybase, MySQL). o Desarrollo de procedimientos almacenados aplicando técnicas que permiten un mejor uso de los recursos de la base de datos. • Despliegue de aplicaciones con tecnologías de contenedores como Docker y CI/CD con Jenkins. • Jira / Bitbucket. o Usamos Scrum y reuniones diarias para asegurar que nuestras tareas se completaran.",
+                            "tags": ["Java", "Agular 11", "Node.js", "JavaScript", "SpringBoot", "Docker", "AWS", "SQL/ESQL"]
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/place-5.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2020",
+                        "end": "06/01/2021"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Backend Python Developer",
+                            "info": "BiosSoftware",
+                            "text":"As a Backend/Frontend Developer , I developed code for a school platform that stores and analyzes student data. I designed UI/UX interfaces in collaboration with users using JavaScript libraries such as React. Additionally, I implemented machine learning algorithms with Python and contributed to backend development. I created and maintained APIs using Flask and the flaskREST framework, and managed databases with MySQL for efficient data handling.",
+                            "tags": ["Python","Docker","TensorFlow","Machine Learning","Nginx","Flask"]
                         },
-                        "fr": {
-                            "title": "Ingénieur **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "J'ai contribué à l'amélioration du site Web de Coursera en ajoutant de nouvelles fonctionnalités et en optimisant l'expérience utilisateur, en utilisant des technologies frontend et backend pour garantir un fonctionnement fluide.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**풀스택** 엔지니어",
-                            "info": "코세라",
-                            "text": "Coursera 웹사이트를 개선하기 위해 새로운 기능을 추가하고 사용자 경험을 최적화했습니다. 원활한 기능을 보장하기 위해 프론트엔드와 백엔드 기술을 모두 활용했습니다.",
-                            "tags": null
+                        "es": {
+                            "title": "Desarrollador **Backend** de Python",
+                            "info": "BiosSoftware",
+                            "text": "Como Desarrollador Backend/Frontend, desarrollé código para una plataforma escolar que almacena y analiza datos de los estudiantes. Diseñé interfaces UI/UX en colaboración con los usuarios utilizando librerías de JavaScript como React. Además, implementé algoritmos de machine learning con Python y contribuí al desarrollo de backend. Creé y mantuve APIs utilizando Flask y el framework flaskREST, y gestioné bases de datos con MySQL para un manejo eficiente de los datos.",
+                            "tags": ["Python","Docker","TensorFlow","Machine Learning","Nginx","Flask"]
                         }
                     }
                 }

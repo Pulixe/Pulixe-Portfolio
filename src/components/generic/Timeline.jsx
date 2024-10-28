@@ -46,7 +46,7 @@ function TimelineItem({item}) {
     return (
         <li className={`timeline-item`}>
             <div className={`timeline-avatar-wrapper`}>
-                <CircleAvatar img={item.img}
+               <CircleAvatar img={item.img}
                               alt={`timeline-item`}
                               fallbackIcon={item.faIcon}
                               fallbackIconColors={item.faIconColors}/>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function FaIcon({iconName, colors, className}) {
+function FaIcon({iconName,enlace, colors, className}) {
     const faIconClassList = `fa-icon ${iconName}`
 
     const iconStyle = colors ? {color: colors.fill} : null
@@ -8,7 +8,7 @@ function FaIcon({iconName, colors, className}) {
 
     return (
         <div className={`fa-icon-wrapper d-inline ${className}`} style={bgStyle}>
-            <i className={faIconClassList} style={iconStyle}/>
+            <a hRef={enlace}><i className={faIconClassList} style={iconStyle}/></a>
         </div>
     )
 }
