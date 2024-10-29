@@ -79,7 +79,7 @@
 
                     "locales": {
                         "en": {
-                            "title": "<b>GuitarShop<b>",
+                            "title": "GuitarShop",
                             "text": "<b>E-Commerce</b> An Online Guitar Store <b>Made with React/TypeScript</b>.",
                             "tags": ["ecommerce", "React", "TypeScript"]
                         },
@@ -116,7 +116,7 @@
 
                     "locales": {
                         "en": {
-                            "title": "<b>MyDentist<b>",
+                            "title": "MyDentist",
                             "text": "<b>Social Media</b> This project connect dentist students with real clients who needs especial treatments in order to help the students gettin their profesional practices in Panama.",
                             "tags": ["social media", "Angular", "TypeScript","SQLite"]
                         },
@@ -153,7 +153,7 @@
 
                     "locales": {
                         "en": {
-                            "title": "<b>MeSirve App<b>",
+                            "title": "MeSirve App",
                             "text": "<b>Rent Store</b> This project is still in progress.. but the main purpose is to let people put in rent valuable assets their own for a extra income!",
                             "tags": ["React Native", "AWS", "Mobile App","PostgresSQL"]
                         },
